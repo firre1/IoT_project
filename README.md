@@ -12,6 +12,10 @@ This project will take approximately 2 hours to complete.
 ## Objective
 The objective of this project is to create a simple IoT device that measures temperature and displays the data in the dashboard and shows different messages through Morse code using LEDs. This project purpose is to get a better understanding about the basics of IoT. The reason I chose this particular project is that I thought it would be relatively easier. I didn't have an LED screen and I wanted to see how I could send messages so Morse code was an option that fit in very well. The insights I gained from this project are understanding how to interface sensors with microcontrollers, transmitting data over the internet and learning Morse code.
 
+This is what the end result could look like:
+
+![esp32IoT](https://github.com/firre1/IoT_project/assets/51923476/b3cff70f-f81f-42e4-96c5-476fcea0e86f)
+
 
 
 ## Materials
@@ -79,6 +83,9 @@ In this project Arduino IDE was used. You will need to install the Arduino IDE a
    - Connect VDD to 5V.
    - Connect GND to ground.
    - Connect Vout to analog pin G34 on the ESP32.
+
+How the circuit looks like:
+![circuitESP](https://github.com/firre1/IoT_project/assets/51923476/a25f1c87-373f-4915-96e5-8582f65c980a)
 
 ## Platform
 
@@ -227,7 +234,10 @@ The presentation of the data is done using the Adafruit IO dashboard. The dashbo
    - **Text Block Widget**: This widget allows you to send text messages to the ESP32. The ESP32 receives these messages and displays them as Morse code using the connected LEDs.
    - The data sent to Adafruit IO is stored in the Adafruit IO feed. By default Adafruit IO keeps the data for 30 days on the free plan it can be extended with a paid plan.
    - The temperature data on the dashboard is updated every 30 seconds.
-   - Below is a screenshot of the Adafruit IO dashboard:
+
+   How the dashboard looks like:
+   ![adaDashb](https://github.com/firre1/IoT_project/assets/51923476/7aa95a24-f891-4f49-89b4-3115e3a21142)
+
 
 ## Finalizing the Design
 
@@ -238,4 +248,5 @@ Implementing better power management techniques like deep sleep modes for the ES
 
 Overall the project was a success. Achieving its primary goals and offering valuable learning experiences.
 
-     
+![LedOn](https://github.com/firre1/IoT_project/assets/51923476/12f98884-e6de-4cc7-bf05-138a061cab16)
+
