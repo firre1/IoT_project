@@ -23,7 +23,7 @@ This is what the end result could look like:
 List of the components used in this project with their costs in SEK.
 
 - **ESP32**: Can be found online somewhere between 100-200 kr. I got mine for free from a friend :). 
-- **Three LED Diodes**: 5 kr each, total 15 kr. Bought from electrokit.
+- **LED Diodes**: 5 kr each, total 15 kr. Bought from electrokit.
 - **Resistors**: 1 kr each, total 3 kr. Bought from electrokit.
 - **Temperature Sensor**: 12 kr. Bought from electrokit.
 - **Breadboard and Wires**: 69 kr for the breadboard and 49 kr for the wires. Bought from electrokit.
